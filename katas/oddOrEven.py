@@ -8,3 +8,11 @@ Prompt: What number are you thinking?
 Input: 25
 Output: That's an odd number! Have another?  '''   
 
+
+print('What number are you thinking ?')
+x = int(input())
+if x%2 == 0 :
+    print("It's even")
+else:
+    print("It's odd")
+    
